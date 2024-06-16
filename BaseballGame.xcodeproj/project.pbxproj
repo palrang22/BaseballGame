@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7882F5F2C1C213500F215DD /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7882F5E2C1C213500F215DD /* BaseballGame.swift */; };
+		E7882F5F2C1C213500F215DD /* Logics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7882F5E2C1C213500F215DD /* Logics.swift */; };
 		E7B1BD282C1ABECE00198A04 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1BD272C1ABECE00198A04 /* main.swift */; };
+		E7B35FD22C1F545A00B84A09 /* BaseballGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B35FD12C1F545A00B84A09 /* BaseballGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E7882F5E2C1C213500F215DD /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
+		E7882F5E2C1C213500F215DD /* Logics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logics.swift; sourceTree = "<group>"; };
 		E7B1BD242C1ABECE00198A04 /* BaseballGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaseballGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B1BD272C1ABECE00198A04 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E7B35FD12C1F545A00B84A09 /* BaseballGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				E7B1BD272C1ABECE00198A04 /* main.swift */,
-				E7882F5E2C1C213500F215DD /* BaseballGame.swift */,
+				E7B35FD12C1F545A00B84A09 /* BaseballGame.swift */,
+				E7882F5E2C1C213500F215DD /* Logics.swift */,
 			);
 			path = BaseballGame;
 			sourceTree = "<group>";
@@ -124,7 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B1BD282C1ABECE00198A04 /* main.swift in Sources */,
-				E7882F5F2C1C213500F215DD /* BaseballGame.swift in Sources */,
+				E7882F5F2C1C213500F215DD /* Logics.swift in Sources */,
+				E7B35FD22C1F545A00B84A09 /* BaseballGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
